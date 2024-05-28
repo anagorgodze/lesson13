@@ -1,0 +1,33 @@
+@mixin title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin mycards {
+    width: 362px;
+    height: 186px;
+    flex-shrink: 0;
+    border-radius: 5px 5px 0px 0px;;
+}
+@mixin text1 {
+    color: #8A8787;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin textimg1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 184px;
+    margin-top: 32px;
+    margin-left: 41px;
+} 
